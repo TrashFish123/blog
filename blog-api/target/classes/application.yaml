@@ -1,0 +1,35 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: zy_blog
+  datasource:
+    url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=UTF-8&serverTimeZone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 192.168.211.128
+    port: 6379
+    password: 123456
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 20MB
+#    connect-timeout: 5000
+
+
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+
+  global-config:
+    db-config:
+      table-prefix: ms_
+
+qiniu:
+  accessKey: znUgdiJX4bSwqkV_FA4vEnXUeyowUvTHFxDvBpLw
+  accessSecretKey: 5-x70YePBEsKFyV6jqfuXpYE6DKiXYdpVgA9pCa_

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="blog@localhost">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.32">
+    <root id="1">
+      <DefaultCasing>lower/lower</DefaultCasing>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <ServerVersion>8.0.28</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="blog">
+      <Current>1</Current>
+      <CollationName>utf8_german2_ci</CollationName>
+    </schema>
+    <schema id="3" parent="1" name="community">
+      <CollationName>utf8_german2_ci</CollationName>
+    </schema>
+    <schema id="4" parent="1" name="db01">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="5" parent="1" name="db2019">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="6" parent="1" name="information_schema">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="7" parent="1" name="lagou_edu">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="8" parent="1" name="mybatis_db">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="9" parent="1" name="mysql">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="10" parent="1" name="nacos_config">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="11" parent="1" name="performance_schema">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="12" parent="1" name="seata">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="13" parent="1" name="seata_account">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="14" parent="1" name="seata_order">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="15" parent="1" name="seata_storage">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="16" parent="1" name="shuju">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="17" parent="1" name="spring_db">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="18" parent="1" name="springboot_test">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="19" parent="1" name="ssm_lagou_edu">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="20" parent="1" name="ssmtest">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="21" parent="1" name="sys">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+  </database-model>
+</dataSource>
